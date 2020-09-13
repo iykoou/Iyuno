@@ -32,7 +32,7 @@ My creator is {}.
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a group management bot and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a group management bot and help admins manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -53,7 +53,7 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/34f5c925734998c2c1790.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+Iyuno is hosted on Heroku and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
