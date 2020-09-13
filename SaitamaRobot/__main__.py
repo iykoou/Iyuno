@@ -22,17 +22,17 @@ from telegram.utils.helpers import escape_markdown
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
+I am a group management bot.
 You can find my list of available commands with /help.
 
-[Saitama's Repo](github.com/AnimeKaizoku/SaitamaRobot) 
-See [Basic Configuration Checklist](t.me/OnePunchUpdates/29) on how to secure your group.
-The support group chat is at {}.
+You can find the source code here:
+[Source Code](github.com/iykoou/Iyuno) 
+My creator is {}.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a group management bot and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -50,7 +50,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/34f5c925734998c2c1790.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -161,7 +161,7 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
-                        text="Add Saitama to your group",
+                        text="Add Iyuno to your group",
                         url="t.me/{}?startgroup=true".format(
                             context.bot.username))
                 ]]))
